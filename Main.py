@@ -1,8 +1,10 @@
 from pathlib import Path
 from tkinter import Tk
 from tkinter.filedialog import askopenfilename
+import time
 
-
+print('SOFTWARE VALIDADOR DE QUANTIDADE DE DIGITOS DE CPF EM IMP.NOME')
+time.sleep(3)
 def abre_arquivo(): #Retorna o arquivo aberto para analise e edição
     Tk().withdraw()
 
@@ -37,7 +39,9 @@ if erros:
 else:
     print('Documento não contém erros de CPF e formatação') #Caso não tenha erros será exibida essa mensagem.
    
-
+print('\n')
+print('PROGRAMA EXECUTADO!')
+input('Finalize o programa clicando Enter...')
 
 
 
